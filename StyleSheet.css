@@ -1,0 +1,12 @@
+﻿body {
+    background: -webkit-linear-gradient(left, #FDEDEC, #FADBD8, #F5B7B1, #EC7063);
+    background-color: #F5B7B1;
+}
+
+h1 {
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    text-shadow: 2px 2px #0026ff;
+    color: tomato;
+    text-align: center;
+}
