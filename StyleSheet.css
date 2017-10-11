@@ -1,8 +1,7 @@
 ﻿body {
-    margin: 0;
-    padding: 0;
     font-family: 'Indie Flower', cursive;
 }
+
 
 .nav {
     background-color: #ffffff;
@@ -27,18 +26,19 @@
                 color: #CD6155;
             }
 
-.logo {
+.logo > a {
     color: #CD6155;
     float: left;
-    padding-left: 25px;
-    font-size: 35px;
+    padding: 0 25px 0 25px;
+    font-size: 15px;
     font-weight: bold;
 }
 
-    .logo > a {
-        text-decoration-style: none;
-        color: #CD6155;
-    }
+.logo > a {
+    text-decoration-style: none;
+    padding: 20px 0 20px;
+    color: #CD6155;
+}
 
 .banner {
     width: 100%;
@@ -48,7 +48,7 @@
 }
 
     .banner > .h1 {
-        font-size: 70px;
+        font-size: 100px;
         color: #CD6155;
         padding-left: 10%;
         padding-top: 5%;
@@ -64,18 +64,20 @@
         opacity: 0.3;
     }
 
-p {
+p, #hello {
     margin: 20px;
     text-align: center;
     font-size: 50px;
 }
 
-p2 {
+#contact {
     margin: 20px;
     text-align: center;
     font-size: 50px;
     color: tomato;
 }
+
+
 
 .fa {
     padding: 20px;
