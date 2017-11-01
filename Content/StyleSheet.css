@@ -34,24 +34,25 @@
     text-decoration-style: none;
 }
 
-.banner {
+.test {
     width: 100%;
     display: block;
     color: #CD6155;
-    position: relative
+    position: relative;
 }
 
-    .banner > .h1 {
+    .test > .name {
         font-size: 55px;
         color: #CD6155;
-        padding-left: 6.5%;
-        padding-top: 8.5%;
+        padding-left: 7.5%;
+        padding-top: 7.5%;
         position: absolute;
         font-weight: bolder;
         z-index: 1000;
+        text-align: center;
     }
 
-    .banner > .banner-image {
+    .test > .test-image {
         width: 100%;
         height: 350px;
         display: block;
@@ -74,6 +75,36 @@ p, #hello {
    
 }
 
+#work{
+    page-break-after: always;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: dashed;
+    border-bottom-color: lightgray;
+}
+
+#work h2 {
+    color: tomato;
+    align-content: center;
+}
+
+.set {
+   text-align: center;
+}
+
+.projects{
+    height: 300px;
+    display: inline;
+}
+
+.projects img{
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+.projects img:hover{
+    transform: scale(2.2);
+}
 #contact {
     margin: 20px;
     text-align: center;
