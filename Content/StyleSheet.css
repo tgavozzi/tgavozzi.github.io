@@ -50,6 +50,8 @@
         font-weight: bolder;
         z-index: 1000;
         text-align: center;
+        animation-duration: 5s;
+       
     }
 
     .test > .test-image {
