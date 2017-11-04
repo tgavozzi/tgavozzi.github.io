@@ -2,17 +2,20 @@
 <html>
 <head>
 
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
 
     <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="Content/StyleSheet.css" rel="stylesheet" />
-    <title> &#10024 Teddilyn Gavozzi &#10024 </title>
+    <title>Teddilyn Gavozzi</title>
 </head>
 <body>
 
@@ -26,33 +29,54 @@
     </ul>
 
     <div class=" test">
-        <h1 class="name animated rubberBand">Teddilyn Gavozzi &#9755 Junior Software Developer</h1>
-        <img class="test-image" src="Content/img/banner.jpeg">
+        <div class="name">
+            <h1 class="animated rollIn">Teddilyn Gavozzi &#9755 Junior Software Developer</h1>
+        </div>
+
     </div>
 
-    <h2 id="welcome">
-        <a id="home">Welcome to my page!</a>
-    </h2>
+    <h2 id="home">Welcome to my page!</h2>
 
-    <p id="hello">
-        <a id="about_me">
-            Hi, My name is Teddilyn...but you can call me Teddi! I graduated from Kent State Universtiy with a degree in Public Health: Healthcare Administration.
-            I've spent the last 5 years in data and financial analytics, when I decided to pivot my career to Software Development. I am currently studing coding at TechElevator in
-            Cleveland, Ohio and I'm excited about seeing where this road will take me. I am an avid  learner and hope you find this a place to catch up on my work and learn a
-            little about my journey.
-        </a>
+    <p id="about me">
+        Hi, My name is Teddilyn...but you can call me Teddi! I graduated from Kent State Universtiy with a degree in Public Health: Healthcare Administration.
+        I've spent the last 5 years in data and financial analytics, when I decided to pivot my career to Software Development. I am currently studying coding at TechElevator in
+        Cleveland, Ohio and I'm excited about seeing where this road will take me. I am an avid  learner and hope you find this a place to catch up on my work and learn a
+        little about my journey.
     </p>
     <div id="work">
-        <h2 >A sample of work that I've done</h2>
+        <h2>A sample of work that I've done</h2>
         <p>"Think left and think right and think low and think high. Oh, the thinks you can think up if only you try” – Dr. Seuss</p>
     </div><br />
-    <div class="set">
-        <div class="projects"><a href="https://codepen.io/tgavozzi/pen/MELJrW"><img src="Content/img/Fish.PNG" /></a></div>
-        <div class="projects"><a href="https://codepen.io/tgavozzi/pen/eGbEJE"><img src="Content/img/Button.PNG" /></a></div>
-        <div class="projects"><a href="https://codepen.io/tgavozzi/pen/KXjxMx"><img src="Content/img/LoadingButton.PNG" /></a></div>
-        <div class="projects"><a href="http://time-tracker-1.apphb.com/"><img src="Content/img/timeTracker.PNG" /></a></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 projects"><a href="https://codepen.io/tgavozzi/pen/MELJrW"><img src="Content/img/Fish.PNG" /></a></div>
+            <div class="col-lg-9 textForProjects"><h2>The Fish Bowl:</h2><br /> A CodePen development leveraging CSS and HTML only. Used CSS animation to create the movement of 
+            the fish, as well as positioning and transform to create the fish.</div>
+        </div>
     </div>
-
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 textForProjects"><h2>The Button:</h2><br />A CodePen project using CSS, HTML and some Javascript to create a "button". Used linear gradient and webkit-transitions
+            for movement of button.</div>
+            <div class="col-lg-3 projects"><a href="https://codepen.io/tgavozzi/pen/eGbEJE"><img src="Content/img/Button.PNG" /></a></div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 projects"><a href="https://codepen.io/tgavozzi/pen/KXjxMx"><img src="Content/img/LoadingButton.PNG" /></a></div>
+            <div class="col-lg-9 textForProjects"><h2>Loading:</h2><br />This is a project using CSS to create an animated "button"</div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 textForProjects"><h2>Freelance Time Tracker:</h2><br />A dynamic web applicat that allows users to track their time working on projects. This project uses ASP.NET MVC, HTML, CSS, JavaScript and stores data in MS SQL Server.</div>
+            <div class="col-lg-3 projects"><a href="http://time-tracker-1.apphb.com/"><img src="Content/img/timeTracker.PNG" /></a></div>
+        </div>
+    </div>
+    <br /><br />
     <h2 id="contact">If you'd like to say hello or connect here are a few ways to reach me.</h2>
 
     <p class="social_media">
