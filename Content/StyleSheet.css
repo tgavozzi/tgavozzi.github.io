@@ -80,6 +80,7 @@ p, #hello {
     #work h2 {
         color: tomato;
         align-content: center;
+        font-size: 40px;
     }
 
 #set {
@@ -101,6 +102,12 @@ p, #hello {
             transform: scale(1.2);
         }
 
+.textForProjects {
+    font-size: 25px;
+    text-align: center;
+}
+
+
 .textForProjects h2{
     font-size: 30px;
     text-align: center;
@@ -108,10 +115,17 @@ p, #hello {
 }
 
 #contact {
+    display: inline-block;
     margin: 20px;
     text-align: center;
     font-size: 50px;
     color: tomato;
+}
+
+.thumbnail {
+    display: inline-block;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .fa {
