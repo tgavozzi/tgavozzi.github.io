@@ -93,8 +93,8 @@ p, #hello {
 }
 
     .projects img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         display: inline;
     }
 
@@ -117,7 +117,7 @@ p, #hello {
 #contact {
     display: inline-block;
     margin: 20px;
-    text-align: center;
+    display: flow-root;
     font-size: 50px;
     color: tomato;
 }
